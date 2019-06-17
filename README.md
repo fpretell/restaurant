@@ -42,11 +42,15 @@ Por lo tanto el único requisito para ejecutar el proyecto es un navegador compa
       efectivo (# transacciones y total)
 
   Reporte de camareros
+
     -ranking de quienes atendieron mas ordenes
+
     -ranking mas valorizados (total)
 
   Reporte de cajeros
+
     -ranking de quienes atendieron mas ordenes
+    
     -ranking mas valorizados (total)
 
   Reporte de productos
