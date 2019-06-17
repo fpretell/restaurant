@@ -17,4 +17,9 @@ Por lo tanto el único requisito para ejecutar el proyecto es un navegador compa
 
 ## Instalación
 
-  1. Abrir el archivo index.html desde un navegador web.
+  1. Clonar el proyecto
+      ```
+      git clone https://github.com/fpretell/restaurant.git
+      ```
+
+  2. Abrir el archivo index.html desde un navegador web o subirlo a un servidor web como Apache.
