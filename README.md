@@ -4,8 +4,6 @@
 
 Esta es una aplicación que proporciona reportes básicos sobre un modelo de negocio de gastronomía.
 
-```
-
 ## Requerimientos
 
 Este proyecto actualmente trabaja con:
