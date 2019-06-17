@@ -10,6 +10,8 @@ Este proyecto actualmente trabaja con:
 
 * Javascript
 * HTML
+* Bootstrap
+* Jquery
 
 Por lo tanto el único requisito para ejecutar el proyecto es un navegador compatible como
 * Google Chrome:versión más actualizada
