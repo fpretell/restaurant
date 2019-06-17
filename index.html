@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Reportes Toteat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+<div class="jumbotron text-center">
+  <h1>Reportes Toteat</h1>
+  <p>Reportes para el Sistema de Gastronomía!</p>
+</div>
+
+<div class="container">
+<hr>
+  <h2>Resumen de Ventas</h2>
+  <button id="btnSales" type="button" class="btn btn-info" data-toggle="collapse" data-target="#sales">Ver</button>
+  <div id="sales" class="collapse">
+    <div class="divtable">
+
+      <h3>Venta Total del Período: <span id="lblTotal"class="label label-default"></span></h3>
+      <table id="tblSales" class="table table-bordered">
+        <thead style="text-align:center">
+          <tr>
+            <th class="text-center" rowspan="3" scope="col" >Fecha</th>
+            <th class="text-center" rowspan="3" scope="col">Total</th>
+            <th class="text-center" rowspan="3" scope="col">Ordenes</th>
+            <th class="text-center" rowspan="3" scope="col">Clientes</th>
+            <th class="text-center" colspan="6" scope="col">Pagos</th>
+          </tr>
+          <tr>
+            <th class="text-center" colspan="2" scope="col" >Efectivo</th>
+            <th class="text-center" colspan="2" scope="col">Débito</th>
+            <th class="text-center" colspan="2" scope="col">Crédito</th>
+          </tr>
+          <tr>
+            <th class="text-center" scope="col">Monto</th>
+            <th class="text-center" scope="col">Transacciones</th>
+            <th class="text-center" scope="col">Monto</th>
+            <th class="text-center" scope="col">Transacciones</th>
+            <th class="text-center" scope="col">Monto</th>
+            <th class="text-center" scope="col">Transacciones</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <h2>Reporte de Camareros</h2>
+  <button id="btnReportWaiters" type="button" class="btn btn-info" data-toggle="collapse" data-target="#waiters">Ver</button>
+  <div id="waiters" class="collapse">
+    <div class="divtable">
+      <table id="tblWaitersCount" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenados por número de  Ordenes</th>
+            <th scope="col">Ordenes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="divtable">
+      <table id="tblWaitersTotal" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenados por Ventas</th>
+            <th scope="col">Venta</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+
+  <h2>Reporte de Cajeros</h2>
+  <button id="btnReportCashiers" type="button" class="btn btn-info" data-toggle="collapse" data-target="#cashiers">Ver</button>
+  <div id="cashiers" class="collapse">
+    <div class="divtable">
+      <table id="tblCashiersCount" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenados por número de  Ordenes</th>
+            <th scope="col">Ordenes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="divtable">
+      <table id="tblCashiersTotal" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenados por Ventas</th>
+            <th scope="col">Venta</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+
+
+  <h2>Reporte de Productos</h2>
+  <button id="btnReportProducts" type="button" class="btn btn-info" data-toggle="collapse" data-target="#products">Ver</button>
+  <div id="products" class="collapse">
+    <div class="divtable">
+      <table id="tblProductsCount" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenados por número de  Ordenes</th>
+            <th scope="col">Ordenes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="divtable">
+      <table id="tblProductsTotal" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenados por Ventas</th>
+            <th scope="col">Venta</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <h2>Reporte por Zona</h2>
+  <button id="btnReportZone" type="button" class="btn btn-info" data-toggle="collapse" data-target="#zone">Ver</button>
+  <div id="zone" class="collapse">
+    <div class="divtable">
+      <table id="tblZonesCount" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenados por número de  Ordenes</th>
+            <th scope="col">Ordenes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="divtable">
+      <table id="tblZonesTotal" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenados por Ventas</th>
+            <th scope="col">Venta</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <h2>Reporte por Mesa</h2>
+  <button id="btnReportTable" type="button" class="btn btn-info" data-toggle="collapse" data-target="#table">Ver</button>
+  <div id="table" class="collapse">
+    <div class="divtable">
+      <table id="tblTablesCount" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenadas por número de  Ordenes</th>
+            <th scope="col">Ordenes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="divtable">
+      <table id="tblTablesTotal" class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Ordenados por Ventas</th>
+            <th scope="col">Venta</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+<hr>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/controller.js"></script>
+</html>

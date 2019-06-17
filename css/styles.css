@@ -1,0 +1,9 @@
+.divtable{
+  margin-top: 20px;
+}
+.btnbadge{
+  margin-bottom: 20px!important;
+}
+.table > thead > tr > th {
+     vertical-align: middle;
+}
