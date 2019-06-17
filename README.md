@@ -28,18 +28,27 @@ Por lo tanto el único requisito para ejecutar el proyecto es un navegador compa
 
 ## Organización de los Reportes
 
-
   Resumen de ventas
-    Venta Total del Periodo
-    Ordenes Totales del Periodo
-    Resumen por dia
-      total venta
-      ordenes
-      comensales
-    payments
-      debito (# transacciones y total)
-      credito (# transacciones y total)
-      efectivo (# transacciones y total)
+
+    -Venta Total del Periodo
+
+    -Ordenes Totales del Periodo
+
+    -Resumen por dia
+
+      -total venta
+
+      -ordenes
+
+      -comensales
+
+    -payments
+
+      -debito (# transacciones y total)
+
+      -credito (# transacciones y total)
+
+      -efectivo (# transacciones y total)
 
   Reporte de camareros
 
@@ -50,17 +59,23 @@ Por lo tanto el único requisito para ejecutar el proyecto es un navegador compa
   Reporte de cajeros
 
     -ranking de quienes atendieron mas ordenes
-    
+
     -ranking mas valorizados (total)
 
   Reporte de productos
+
     -ranking mas vendidos
+
     -ranking mas valorizados (total)
 
   Reporte por zona
+
     -ranking mas vendidos
+
     -ranking mas valorizados (total)
 
   Reporte por mesa
+
     -ranking mas vendidos
+
     -ranking mas valorizados (total)
