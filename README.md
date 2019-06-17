@@ -25,3 +25,38 @@ Por lo tanto el único requisito para ejecutar el proyecto es un navegador compa
       ```
 
   2. Abrir el archivo index.html desde un navegador web o subirlo a un servidor web como Apache.
+
+## Organización de los Reportes
+
+
+  Resumen de ventas
+    Venta Total del Periodo
+    Ordenes Totales del Periodo
+    Resumen por dia
+      total venta
+      ordenes
+      comensales
+    payments
+      debito (# transacciones y total)
+      credito (# transacciones y total)
+      efectivo (# transacciones y total)
+
+  Reporte de camareros
+    -ranking de quienes atendieron mas ordenes
+    -ranking mas valorizados (total)
+
+  Reporte de cajeros
+    -ranking de quienes atendieron mas ordenes
+    -ranking mas valorizados (total)
+
+  Reporte de productos
+    -ranking mas vendidos
+    -ranking mas valorizados (total)
+
+  Reporte por zona
+    -ranking mas vendidos
+    -ranking mas valorizados (total)
+
+  Reporte por mesa
+    -ranking mas vendidos
+    -ranking mas valorizados (total)
